@@ -6,6 +6,7 @@ import 'package:anmation/animations/implicit_animation/animated_postion.dart';
 import 'package:anmation/animations/implicit_animation/animated_size.dart';
 import 'package:anmation/animations/implicit_animation/animatedcontaner.dart';
 import 'package:anmation/animations/implicit_animation/animatedopacity.dart';
+import 'package:anmation/animations/tween_animation/tween_animation.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -14,7 +15,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Animated_Alignment(),
+      body: TweenAnimation(),
     );
   }
 }
