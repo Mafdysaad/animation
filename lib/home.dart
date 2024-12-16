@@ -1,3 +1,5 @@
+import 'package:anmation/animations/Explicit_animation/Explicit_animation.dart';
+import 'package:anmation/animations/Explicit_animation/Explicit_animation_tween.dart';
 import 'package:anmation/animations/implicit_animation/animated_alignment.dart';
 import 'package:anmation/animations/implicit_animation/animated_defult_textstyle.dart';
 import 'package:anmation/animations/implicit_animation/animated_padding.dart';
@@ -15,7 +17,7 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: TweenAnimation(),
+      body: ExplicitAnimationTween(),
     );
   }
 }
