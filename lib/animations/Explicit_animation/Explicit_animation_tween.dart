@@ -26,6 +26,12 @@ class _ExplicitAnimationTweenState extends State<ExplicitAnimationTween>
   }
 
   @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return AlignTransition(
       alignment: geometry_animation,
